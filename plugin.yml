@@ -1,0 +1,25 @@
+name: MCPlugin
+main: com.jwiz1011.MCPlugin
+version: 1.0
+
+commands:
+  mcplugintest:
+    description: Tests to make sure plugin is working.
+    usage: /mcplugintest
+    permission: MCPlugin.mcplugintest
+    permission-message: You do not have permission
+  regionselect:
+    description: Enables creative region selection mode.
+    usage: /regionselect
+    permission: MCPlugin.regionselect
+    permission-message: You do not have permission
+  rsaccept:
+    description: Confirms selected region.
+    usage: /rsaccept
+    permission: MCPlugin.rsaccept
+    permission-message: You do not have permission
+  rscancel:
+    description: Exits region selection mode.
+    usage: /rscancel
+    permission: MCPlugin.rscancel
+    permission-message: You do not have permission
